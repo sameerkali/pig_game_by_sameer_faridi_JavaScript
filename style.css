@@ -120,7 +120,7 @@ main {
 
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
-  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1); 
 }
 
 .btn::first-letter {
@@ -129,17 +129,42 @@ main {
   margin-right: 0.7rem;
 }
 
+.btn--name{
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translateX(-50%);
+  color: rgb(90, 88, 88);
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 2.8rem;
+  box-shadow: rgb(39, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.5s;
+
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
 .btn--new {
   top: 4rem;
+}
+.btn--theam {
+  top: 10rem;
 }
 .btn--roll {
   top: 39.3rem;
 }
 .btn--hold {
   top: 46.1rem;
-}
-.btn--theam {
-  top: 10rem;
 }
 
 .btn:active {
@@ -168,6 +193,7 @@ main {
   font-weight: 700;
   color: #c7365f;
 }
-.hidden{
+
+.hidden {
   display: none;
 }
